@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding:30px 0px;
+  margin: 30px 0px 30px 0px;
+  border-bottom: 2px solid rgb(38, 115, 77);
+}
+
+.flex-item-left{
+  flex:50%;
+  background-color: rgb(255,255,255);
+  border-radius: 10px;
+  box-shadow:0px 0px 15px rgb(38, 115, 77);
+  margin:2%;
+  height:500px;
+  overflow-y: scroll;
+}
+.flex-item-right {
+  flex:40%;
+  align-self: center;
+}
+
+img {
+  width: 450px;
+  height:350px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+header {
+  background-image: url("bunjee.jpeg");
+  background-size:cover;
+}
+
+.box {
+background-color: rgb(38, 115, 77);
+opacity: 0.8;
+text-align : center;
+padding:3px;
+}
+
+.trip-title {
+  font-size: 80px;
+  margin-top: 0px;
+  padding-bottom: 25%;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Creepster',cursive;
+  font-size: 40px ;
+  padding-left: 20px;
+  
+}
+
+p {
+  font-size: 25px;
+  text-align: justify;
+  padding: 0px 20px;
+}
+
+
+section {
+  background-color: rgb(240,240,240);
+}
+
+@media (max-width:450px) {
+  header {background-size:420px 400px;}
+  p {font-size: 20px;}
+  .trip-title {font-size: 50px;}
+  .box {font-size: 13px; padding:0px;}
+  img {width:300px; height:250px;}
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'EB Garamond','Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
